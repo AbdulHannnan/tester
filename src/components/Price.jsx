@@ -3,7 +3,7 @@ import {features, pricingOptions} from "../constants";
 
 const Price = () => {
   return (
-    <div className="mt-20">
+    <div className="mt-15">
           <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center my-8 tracking-wide">Perfect <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text"> {" "}Pricing</span></h2>
 
           <div className="flex flex-wrap">
@@ -32,7 +32,7 @@ const Price = () => {
 
                     </div>
                 </div>
-            ))};
+            ))}
           </div>
     </div>
   )

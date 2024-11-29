@@ -5,6 +5,7 @@ import Workflow from "./components/Workflow";
 import Price from "./components/Price";
 import Testimonial from "./components/Testimonial";
 import Footer from "./components/Footer";
+import Copywrite from "./components/Copywrite";
 
 const App = () => {
   return (
@@ -20,9 +21,10 @@ const App = () => {
       <div className="max-w-7xl mx-auto pt-20 px-6"><Price/></div>
 
       <div className="w-full mx-auto pt-20 px-6"><Testimonial/></div>
+
       <div className="w-full  mx-auto pt-20 px-6"><Footer/></div>
       
-       
+      <div className="w-full  mx-auto pt-20 px-6"> <Copywrite/></div> 
       
       
       

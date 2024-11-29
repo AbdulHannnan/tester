@@ -19,7 +19,7 @@ const Navbar = () => {
                     <span className="text-xl trackin-tight">virtualR</span>
                 </div>
 
-                <ul className="hidden lg:flex ml-14 space-x-12">
+                <ul className="hidden lg:flex ml-14 space-x-12 justify-center items-center">
                     {navItems.map((item , index ) => (
                         <li key={index}>
                             <a href={item.href}>{item.label}</a>
@@ -28,8 +28,8 @@ const Navbar = () => {
                 </ul>
 
                 <div className="hidden lg:flex justify-center space-x-12 items-center">
-                    <a href="#"  className="py-2 px-3 border rounded-md ">Sign in</a>
-                    <a href="#" className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3  rounded-md">Create Acount </a>
+                    <a href="#"  className="py-2 px-3 border text-neutral-400 rounded-md transform transition-transform duration-300 hover:scale-110 hover:text-white ">Sign in</a>
+                    <a href="#" className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3  rounded-md transform transition-transform duration-300 hover:scale-110">Create Acount </a>
                 </div>
                     <div className="lg:hidden md:flex flex-col justify-end">
                         <button onClick={togglenavbar}>
